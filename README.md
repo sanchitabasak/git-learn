@@ -1,5 +1,5 @@
 sanchitabasak-assignment0
 
-Testing the code- Run python server2.py from a terminal in ubuntu. From another terminal run python client2.py message , where message denotes the command line input the client wants to send to the server. The server receives the input from client, prints it and sends back two copies of the message to the client.
+Testing the code- Run python server2.py from a terminal in ubuntu. From another terminal run python client2.py message , where message denotes the command line input, the client wants to send to the server. The server receives the input from client, prints it and sends back two copies of the message to the client.
 
-
+I am using zeromq to run the program and the networking protocol chosen is tcp. The language used is python.

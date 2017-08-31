@@ -2,8 +2,7 @@ language: python
 python:
  - "2.7"
 install: pip install pyzmq
-script:  python server2.py 
-         python client2.py hello
+script:  python server2.py  client2.py hello
 
 
 

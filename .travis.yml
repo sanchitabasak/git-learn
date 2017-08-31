@@ -2,7 +2,8 @@ language: python
 python:
  - "2.7"
 install: pip install pyzmq
-script:  python server2.py
-         python client2.py hello
+         pip install coverage
+script:  pytest
+after_success: coverage report
 
 
